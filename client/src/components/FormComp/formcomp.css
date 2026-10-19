@@ -115,7 +115,7 @@ a{
         width: 56px;
         margin-bottom: 80px;
     }
-    .registerbtn-container{
+    .registerbtn-container.mobile-version{
         padding-top: 350px;
     }
 }
@@ -124,7 +124,7 @@ a{
     .login-container.desktop-version {
         display: none;
     }
-    .registerbtn-container{
+    .registerbtn-container.mobile-version{
         padding-top: 350px;
     }
     .login-container.mobile-version > img:first-child {
@@ -142,7 +142,7 @@ a{
         width: 56px;
         margin-bottom: 80px;
     }
-    .registerbtn-container{
+    .registerbtn-container.mobile-version{
         padding-top: 350px;
     }
 }

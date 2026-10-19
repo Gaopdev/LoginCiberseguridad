@@ -69,7 +69,7 @@ export default function LoginForm() {
                         <a href="" className="forget-btn">¿Olvidaste tu contraseña?</a>
                     </div>
                 </form>
-                <div className="registerbtn-container">
+                <div className="registerbtn-container mobile-version">
                     <a href="" className="register-btn">Crear cuenta nueva</a>
                     <img src={MetaLogo} alt="" />
                 </div>
