@@ -113,7 +113,10 @@ a{
 
     .login-container.mobile-version > img:first-child {
         width: 56px;
-        margin-bottom: 200px;
+        margin-bottom: 80px;
+    }
+    .registerbtn-container{
+        padding-top: 350px;
     }
 }
 /* Ocultar versión desktop en pantallas móviles */
@@ -121,9 +124,12 @@ a{
     .login-container.desktop-version {
         display: none;
     }
+    .registerbtn-container{
+        padding-top: 350px;
+    }
     .login-container.mobile-version > img:first-child {
         width: 56px;
-        margin-bottom: 200px;
+        margin-bottom: 80px;
     }
 }
 
@@ -134,6 +140,9 @@ a{
     }
     .login-container.mobile-version > img:first-child {
         width: 56px;
-        margin-bottom: 200px;
+        margin-bottom: 80px;
+    }
+    .registerbtn-container{
+        padding-top: 350px;
     }
 }
