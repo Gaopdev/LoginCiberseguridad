@@ -31,3 +31,10 @@ width: auto;
 .hero-left span{
     color: var(--fds-blue-60);
 }
+
+/* Ocultar hero en pantallas móviles */
+@media (max-width: 768px) {
+    .hero-section {
+        display: none;
+    }
+}
