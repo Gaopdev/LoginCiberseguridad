@@ -1,0 +1,33 @@
+.hero-section{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+.hero-right{
+    width: 75%;
+    align-items: end;
+}
+.hero-right img{
+height: 850px;
+width: auto;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 400px;
+}
+.hero-left img{
+    width: 60px;
+    height: auto;
+}
+.hero-left h1{
+    margin: 0;
+    font-size: 70px;
+    height: auto;
+    justify-content: left;
+    color: var(--fds-gray-100);
+}
+.hero-left span{
+    color: var(--fds-blue-60);
+}

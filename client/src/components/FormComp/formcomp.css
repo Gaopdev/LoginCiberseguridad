@@ -1,0 +1,85 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 52px;
+    width: 550px;
+    height: 448px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 25px;
+    border-radius: 20px;
+    height: 37px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.login-container h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+/*FORMULARIO */
+.login-form{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0 0;
+}
+.login-form input{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 18px 16px;
+    margin: 5px;
+    border: solid 1px var(--fds-gray-30);
+    border-radius: 12px;
+}
+.login-form input:focus{
+    border: solid 0.5px var(--fds-gray-100);
+}
+.bttn-forms{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.login-btn{
+    color: var(--fds-blue-05);
+    background-color: var(--fds-blue-60);
+}
+.login-btn:hover{
+    background-color: var(--fds-blue-70);
+    color: var(--fds-gray-20);
+}
+.forget-btn{
+    background-color: transparent;
+    color: var(--fds-gray-100);
+}
+.forget-btn:hover{
+    background-color: var(--fds-gray-10);
+}
+
+/*BOTOTNES DE REGISTRO*/
+.registerbtn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0 0
+}
+.registerbtn-container img{
+    width: 60px;
+    height: auto;
+    padding: 20px;
+}
+.register-btn{
+    border: 1px solid var(--fds-blue-60);
+    color: var(--fds-blue-60);
+    background-color: transparent;
+    width: 90%;
+}
+.register-btn:hover{
+    background-color: var(--fds-gray-10);
+}
